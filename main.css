@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+}
+.navigatiebalk {
+    display: flex;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+li {
+    display: inline-flex;
+    float: start;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+li a:hover {
+    background-color: #056676;
+}
+
+.navigatie-container {
+    background-color: #000000;
+}
